@@ -19,7 +19,7 @@ export default function ProfileScreen() {
         </TouchableOpacity>
         
         <TouchableOpacity style={InstaStyles.profileUsernameRow}>
-          <Text style={InstaStyles.profileUsername}>User 1</Text>
+          <Text style={InstaStyles.profileUsername}>eldwyr</Text>
           <Feather name="chevron-down" size={20} color="white" />
         </TouchableOpacity>
 
