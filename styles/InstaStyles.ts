@@ -1,0 +1,478 @@
+import { StyleSheet } from 'react-native';
+
+export const InstaStyles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#000000',
+  },
+  textWhite: {
+    color: '#FFFFFF',
+  },
+  headerContainer: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    paddingHorizontal: 16,
+    paddingVertical: 12,
+    backgroundColor: '#000000',
+  },
+  headerLogoText: {
+    fontFamily: 'Inter',
+    color: '#FFFFFF',
+    fontSize: 24,
+    fontWeight: 'bold',
+    fontStyle: 'italic',
+    alignItems: 'center'
+  },
+  headerIcons: {
+    flexDirection: 'row',
+    gap: 20,
+  },
+  storiesContainer: {
+    paddingVertical: 10,
+    borderBottomWidth: 0.5,
+    borderBottomColor: '#262626',
+  },
+  storyItem: {
+    alignItems: 'center',
+    marginHorizontal: 8,
+  },
+  storyRing: {
+    width: 76,
+    height: 76,
+    borderRadius: 38,
+    borderWidth: 2,
+    borderColor: '#E1306C',
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  storyImage: {
+    width: 68,
+    height: 68,
+    borderRadius: 34,
+  },
+  storyUsername: {
+    color: '#FFFFFF',
+    fontSize: 12,
+    marginTop: 4,
+  },
+  postHeader: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    padding: 12,
+  },
+  postUserInfo: {
+    flexDirection: 'row',
+    alignItems: 'center',
+  },
+  postAvatar: {
+    width: 36,
+    height: 36,
+    borderRadius: 18,
+    marginRight: 10,
+  },
+  postUsername: {
+    color: '#FFFFFF',
+    fontWeight: 'bold',
+    fontSize: 14,
+  },
+  postFollowBtn: {
+    color: '#FFFFFF',
+    fontWeight: 'bold',
+    fontSize: 14,
+    marginLeft: 10,
+    backgroundColor: '#262626',
+    paddingHorizontal: 12,
+    paddingVertical: 6,
+    borderRadius: 8,
+  },
+  postImage: {
+    width: '100%',
+    aspectRatio: 4 / 5,
+  },
+  postActions: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    padding: 12,
+  },
+  postActionGroup: {
+    flexDirection: 'row',
+    gap: 16,
+  },
+  postFooter: {
+    paddingHorizontal: 12,
+    paddingBottom: 16,
+  },
+  likesText: {
+    color: '#FFFFFF',
+    fontWeight: 'bold',
+    marginBottom: 6,
+  },
+  captionContainer: {
+    flexDirection: 'row',
+    flexWrap: 'wrap',
+  },
+  screenCentered: {
+    flex: 1,
+    backgroundColor: '#000000',
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  reelsContainer: {
+    flex: 1,
+    backgroundColor: '#000000',
+  },
+  reelWrapper: {
+    flex: 1,
+    backgroundColor: '#000000',
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  reelImage: {
+    ...StyleSheet.absoluteFill,
+    width: '100%',
+    height: '100%',
+    resizeMode: 'cover',
+  },
+  reelOverlay: {
+    ...StyleSheet.absoluteFill,
+    justifyContent: 'space-between',
+  },
+  reelFloatingHeader: {
+    position: 'absolute',
+    top: 50,
+    left: 16,
+    right: 16,
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    zIndex: 10,
+  },
+  reelHeaderLeft: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 16,
+  },
+  reelHeaderTextActive: {
+    color: '#FFFFFF',
+    fontSize: 22,
+    fontWeight: 'bold',
+  },
+  reelHeaderTextInactive: {
+    color: 'rgba(255,255,255,0.6)',
+    fontSize: 22,
+    fontWeight: 'bold',
+  },
+  reelHeaderFriends: {
+    flexDirection: 'row',
+    alignItems: 'center',
+  },
+  reelHeaderFriendAvatar: {
+    width: 20,
+    height: 20,
+    borderRadius: 10,
+    marginLeft: -8,
+    borderWidth: 1,
+    borderColor: '#000',
+  },
+  reelRightActions: {
+    position: 'absolute',
+    right: 12,
+    bottom: 20,
+    alignItems: 'center',
+    gap: 22,
+  },
+  reelActionItem: {
+    alignItems: 'center',
+  },
+  reelActionText: {
+    color: '#FFFFFF',
+    fontSize: 12,
+    marginTop: 6,
+    fontWeight: '600',
+  },
+  reelAudioSquare: {
+    width: 30,
+    height: 30,
+    borderRadius: 4,
+    borderWidth: 2,
+    borderColor: '#FFFFFF',
+    marginTop: 10,
+  },
+
+  reelBottomInfo: {
+    position: 'absolute',
+    bottom: 20,
+    left: 16,
+    right: 80,
+  },
+  reelUserInfo: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    marginBottom: 12,
+  },
+  reelAvatar: {
+    width: 36,
+    height: 36,
+    borderRadius: 18,
+    marginRight: 10,
+  },
+  reelUsername: {
+    color: '#FFFFFF',
+    fontWeight: 'bold',
+    fontSize: 15,
+    marginRight: 12,
+  },
+  reelFollowButton: {
+    borderColor: '#FFFFFF',
+    borderWidth: 1,
+    borderRadius: 6,
+    paddingHorizontal: 10,
+    paddingVertical: 4,
+  },
+  reelFollowText: {
+    color: '#FFFFFF',
+    fontWeight: 'bold',
+    fontSize: 12,
+  },
+  reelCaption: {
+    color: '#FFFFFF',
+    fontSize: 14,
+    lineHeight: 20,
+  },
+  dmHeader: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    paddingHorizontal: 16,
+    paddingTop: 12,
+    paddingBottom: 8,
+  },
+  dmHeaderUsername: {
+    color: '#FFFFFF',
+    fontSize: 20,
+    fontWeight: 'bold',
+  },
+  searchContainer: {
+    marginHorizontal: 16,
+    marginVertical: 12,
+    backgroundColor: '#262626',
+    borderRadius: 20,
+    flexDirection: 'row',
+    alignItems: 'center',
+    paddingHorizontal: 14,
+    paddingVertical: 10,
+  },
+  searchText: {
+    color: '#888',
+    marginLeft: 8,
+    fontSize: 15,
+  },
+
+  notesWrapper: {
+    paddingLeft: 16,
+    paddingBottom: 16,
+    borderBottomWidth: 0.5,
+    borderBottomColor: '#262626',
+  },
+  noteItem: {
+    alignItems: 'center',
+    marginRight: 16,
+    position: 'relative',
+    width: 72,
+  },
+  noteAvatar: {
+    width: 72,
+    height: 72,
+    borderRadius: 36,
+  },
+  noteBubble: {
+    position: 'absolute',
+    top: -10,
+    backgroundColor: '#262626',
+    borderRadius: 16,
+    paddingHorizontal: 10,
+    paddingVertical: 6,
+    zIndex: 10,
+  },
+  noteBubbleText: {
+    color: '#FFFFFF',
+    fontSize: 11,
+  },
+  noteName: {
+    color: '#888',
+    fontSize: 12,
+    marginTop: 6,
+    textAlign: 'center',
+  },
+  dmListHeader: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    paddingHorizontal: 16,
+    paddingVertical: 12,
+  },
+  dmListTitle: {
+    color: '#FFFFFF',
+    fontSize: 16,
+    fontWeight: 'bold',
+  },
+  dmListRequests: {
+    color: '#4A90E2',
+    fontSize: 16,
+  },
+  messageItemContainer: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    paddingHorizontal: 16,
+    paddingVertical: 10,
+  },
+  messageAvatarContainer: {
+    marginRight: 12,
+  },
+  messageAvatar: {
+    width: 56,
+    height: 56,
+    borderRadius: 28,
+  },
+  messageActiveRing: {
+    borderWidth: 2,
+    borderColor: '#4CAF50',
+    borderRadius: 30,
+    padding: 2,
+  },
+  messageTextContent: {
+    flex: 1,
+  },
+  messageUsername: {
+    color: '#FFFFFF',
+    fontSize: 15,
+    fontWeight: '500',
+    marginBottom: 4,
+  },
+  messagePreview: {
+    color: '#888',
+    fontSize: 14,
+  },
+  profileNav: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    paddingHorizontal: 16,
+    paddingTop: 12,
+    paddingBottom: 8,
+  },
+  profileUsernameRow: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 4,
+  },
+  profileUsername: {
+    color: '#FFFFFF',
+    fontSize: 22,
+    fontWeight: 'bold',
+  },
+  profileNavRight: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 20,
+  },
+  profileStatsSection: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    paddingHorizontal: 16,
+    paddingVertical: 12,
+  },
+  profileAvatarContainer: {
+    position: 'relative',
+    marginRight: 24,
+  },
+  profileAvatar: {
+    width: 86,
+    height: 86,
+    borderRadius: 43,
+  },
+  profileAddIcon: {
+    position: 'absolute',
+    bottom: 0,
+    right: 0,
+    backgroundColor: '#000000',
+    borderRadius: 12,
+    padding: 2,
+  },
+  profileStatsGroup: {
+    flex: 1,
+    flexDirection: 'row',
+    justifyContent: 'space-around',
+  },
+  profileStatItem: {
+    alignItems: 'center',
+  },
+  profileStatNumber: {
+    color: '#FFFFFF',
+    fontSize: 18,
+    fontWeight: 'bold',
+  },
+  profileStatLabel: {
+    color: '#FFFFFF',
+    fontSize: 13,
+  },
+  profileBannersButton: {
+    paddingHorizontal: 16,
+    paddingBottom: 12,
+  },
+  profileBannersText: {
+    color: '#888',
+    fontSize: 14,
+    fontWeight: '500',
+  },
+  profileActionsRow: {
+    flexDirection: 'row',
+    paddingHorizontal: 16,
+    gap: 8,
+    paddingBottom: 16,
+  },
+  profileActionButton: {
+    flex: 1,
+    backgroundColor: '#262626',
+    paddingVertical: 8,
+    borderRadius: 8,
+    alignItems: 'center',
+  },
+  profileActionIconButton: {
+    backgroundColor: '#262626',
+    paddingVertical: 8,
+    paddingHorizontal: 12,
+    borderRadius: 8,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  profileActionText: {
+    color: '#FFFFFF',
+    fontWeight: '600',
+    fontSize: 14,
+  },
+  profileTabsRow: {
+    flexDirection: 'row',
+    borderBottomWidth: 1,
+    borderBottomColor: '#262626',
+  },
+  profileTabItem: {
+    flex: 1,
+    alignItems: 'center',
+    paddingVertical: 12,
+  },
+  profileTabActive: {
+    borderBottomWidth: 1,
+    borderBottomColor: '#FFFFFF',
+  },
+  gridItemContainer: {
+    width: '33.33%',
+    aspectRatio: 1,
+    padding: 1,
+  },
+  gridImage: {
+    width: '100%',
+    height: '100%',
+  }
+});
